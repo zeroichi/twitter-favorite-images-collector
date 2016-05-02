@@ -1,0 +1,15 @@
+﻿<Window x:Class="TwitterFavoriteImagesCollector.PinInputWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TwitterFavoriteImagesCollector"
+        mc:Ignorable="d"
+        Title="PinInputWindow" Height="288.33" Width="434.554">
+    <Grid>
+        <Button x:Name="button_ok" Content="OK" HorizontalAlignment="Left" Height="35" Margin="282,38,0,0" VerticalAlignment="Top" Width="85"/>
+        <TextBox x:Name="textbox_pincode" HorizontalAlignment="Left" Height="35" Margin="46,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="187"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="46,17,0,0" TextWrapping="Wrap" Text="PINコードを入力してください" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

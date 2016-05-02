@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="TwitterFavoriteImagesCollector" Height="350" Width="525">
     <Grid>
-        
+        <Button x:Name="button_authenticate" Content="認証" Margin="10,10,0,280" HorizontalAlignment="Left" Width="84" Click="button_authenticate_Click"/>
+        <Button x:Name="button_get" Content="取得" HorizontalAlignment="Left" Margin="10,44,0,0" VerticalAlignment="Top" Width="84" Click="button_get_Click"/>
+        <TextBox x:Name="textbox_result" Margin="10,69,10,10" TextWrapping="Wrap" Text="TextBox" AcceptsReturn="True" VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Auto"/>
+
     </Grid>
 </Window>
